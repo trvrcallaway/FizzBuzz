@@ -4,7 +4,7 @@ var theNumber = Number(prompt("Please enter a number"));
 var element = document.getElementById("fizzer");
 
 if(theNumber){
-  element.innerHTML = FizzBuzz(Number);
+  FizzBuzz(theNumber);
 } else {
   element.innerHTML = 'no answer provided';
   };
